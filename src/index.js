@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import { CallbackHook } from './components/06-memos/CallbackHook';
 //import { Padre } from './components/07-tarea-memo/Padre';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 //import { HookMemo } from './components/06-memos/MemoHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 //import { FocusScreen } from './components/04-useRef/FocusScreen';
@@ -19,7 +20,7 @@ import { TodoApp } from './components/08-useReducer/TodoApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoApp />
+    <MainApp />
   </React.StrictMode>
 );
 
